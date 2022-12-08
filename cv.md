@@ -50,7 +50,7 @@ while (rndInt != userInt) {
 ***
 
 ### Work experience:
-
+_[My CV Markdown](https://lappavel.github.io/rsschool-cv/cv)_
 
 ***
 
