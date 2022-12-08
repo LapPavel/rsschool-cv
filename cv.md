@@ -21,7 +21,7 @@ _There is a great desire to work in the IT industry. I started doing small tasks
 ***
 
 ### Сode example:
-###### Mini-game guess the number from 1 to 1000:
+###### Mini-game: guess the number from 1 to 1000:
 ```
 function randomIntFromInterval(min, max) {
   return parseInt(Math.random() * (max - min + 1) + min)
