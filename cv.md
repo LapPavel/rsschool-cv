@@ -8,7 +8,7 @@
 ***
 
 ### About Me:
-_There is a great desire to work in the IT industry. I started doing small tasks on the Internet on the front-end and I liked it. I decided to enroll in the RSSchool school and get trained in order to receive relevant knowledge in this direction._
+_I have a great desire to work in the IT industry. I started doing small tasks on the Internet on the front-end and I liked it. I decided to enroll in the RSSchool school and get trained in order to receive relevant knowledge in this direction._
 
 ***
 
@@ -21,29 +21,23 @@ _There is a great desire to work in the IT industry. I started doing small tasks
 ***
 
 ### Сode example:
-###### Mini-game: guess the number from 1 to 1000:
+###### Output to the console of leap years in the specified interval:
 ```
-function randomIntFromInterval(min, max) {
-  return parseInt(Math.random() * (max - min + 1) + min)
-}
-const rndInt = randomIntFromInterval(1, 1000)
+var year1 = +prompt('Enter start year');
+var year2 = +prompt('Enter end year');
 
-console.log(rndInt)
-
-while (rndInt != userInt) {
-  var userInt = prompt('Угадайте число');
-  if (userInt == null) break;
-  if (isNaN(userInt) == true) {
-    alert('Введено не число!')
-    continue;
-  }
-  if (rndInt < userInt) {
-    alert('Загаданное число меньше');
-  } else if (rndInt > userInt) {
-    alert('Загаданное число больше');
-  }
-    else {
-      alert('Правильно!')
+if (year2 < year1) {
+  alert ('Start year is greater than end year!')
+} else {
+  while (year1 <= year2) {
+    if (year1 % 4 == 0) {
+      if (year1 % 100 != 0) {
+        console.log(year1);
+      } else if (year1 % 400 == 0) {
+        console.log(year1);
+      }
+    }
+    year1++;
   }
 }
 ```
@@ -58,8 +52,8 @@ _[My CV Markdown](https://lappavel.github.io/rsschool-cv/cv)_
 
 * _Belarusian-Russian University: faculty of automotive engineering - **2006-2011 г.**_
 * Selfeducation:
-   - _[Современный учебник JavaScript](https://learn.javascript.ru/)_
-   - _[Справочник HTML и CSS](https://webref.ru/)_
+   - _[The Modern JavaScript Tutorial](https://learn.javascript.ru/)_
+   - _[HTML and CSS Reference](https://webref.ru/)_
 
 ***
 
